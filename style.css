@@ -1,0 +1,172 @@
+body {
+  font-family: cursive;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ff6838;
+  font-weight: bolder;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ff6838;
+  border: none;
+}
+
+.headerpast {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerpast h1 {
+  width: 530px;
+  height: 156px;
+  font-weight: 500;
+  font-size: 66px;
+}
+
+span {
+  color: #ff6838;
+}
+
+.headerpast button {
+  border: none;
+  border-radius: 30px;
+  border-bottom-right-radius: 0;
+}
+
+
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+.cards .in{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 361px;
+    height: 56px;
+}
+
+
+.in h1{
+    width: 163px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.in button{
+    border-radius: 30px;
+    border-bottom-right-radius: 0;
+}
+
+
+
+.in h1{
+    font-size: 14px;
+}
+
+
+
+.dff h1{
+    font-size: 36px;
+    width: 454px;
+    height: 50px;
+}
+
+
+.dff p{
+    width: 538px;
+    height: 94px;
+    font-size: 20px;
+}
+
+
+.dff{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+footer{
+    width: 1170px;
+    height: 312px;
+    background-color: #ff6838;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+
+
+
+
+footer .sa{
+    width: 838px;
+    height: 78px;
+    background-color: #fff;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    padding-left: 50px;
+    margin-left: 140px;
+    margin-top: 70px;
+}
+
+
+
+footer button{
+    width: 191px;
+    height: 58px;
+    border-radius: 70px;
+    background-color: #ff6838;
+    color: #fff;
+}
+
+
+
+footer .saa{
+    padding-top: 40px;
+}
